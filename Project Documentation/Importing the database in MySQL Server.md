@@ -7,7 +7,7 @@
 - - - -
 #### 2. Then, all I've done is to run the queries of creating the tables as MySQL queries ####
 
-&ensp;&thinsp;&ensp;&thinsp;![Screenshot_20230201_051620](https://user-images.githubusercontent.com/70551007/216082880-e88d0172-d631-4278-8074-8297cd3b3521.png)
+&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216082880-e88d0172-d631-4278-8074-8297cd3b3521.png" width=70% height=70%>
 - - - -
 #### 3. After running all queries, I've to ensure that the tables are added successfully ####
 
@@ -23,5 +23,5 @@
 
 &ensp;&thinsp;&ensp;&thinsp;Then, all queries for loading the data in all tables are written as following:
 
-&ensp;&thinsp;&ensp;&thinsp;![Screenshot_20230201_052336](https://user-images.githubusercontent.com/70551007/216084721-ef9d71e5-7857-4ffc-9486-70117ea7897a.png)
+&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216084721-ef9d71e5-7857-4ffc-9486-70117ea7897a.png" width=90% height=90%>
 - - - -
