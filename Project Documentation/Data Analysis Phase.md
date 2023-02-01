@@ -1,6 +1,5 @@
 ## Project tasks ##
 
----
 
 #### 1. The ten best-selling video games ####
 
@@ -49,7 +48,7 @@
 
 &ensp;&thinsp;&ensp;&thinsp;Those years are the years which have the highest average critics scores.
 
-&ensp;&thinsp;&ensp;&thinsp;To find them, game_scores table and reviews table must get joined together as the previous question, but in this point we need the mutual information between them. So, the INNER JOIN takes place.
+&ensp;&thinsp;&ensp;&thinsp;To find them, game_scores table and reviews table must get joined together as the previous question, but in this task we need the mutual information between them. So, the INNER JOIN takes place.
 
 ```
   SELECT G.year AS ReleaseYear, ROUND(AVG(R.critic_score), 2) AS avg_critic_score
@@ -137,7 +136,7 @@ ORDER BY avg_critic_score DESC;
 
 #### 6. Years video game players loved ####
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This is similar as the point number 4 but with users' scores not the critics.
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This is similar as task number 4 but with users' scores not the critics.
 
 ```
 SELECT COUNT(DISTINCT G.game) AS num_games, G.year AS ReleaseYear, ROUND(AVG(R.user_score), 2) AS avg_user_score
