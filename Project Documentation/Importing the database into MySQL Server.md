@@ -5,12 +5,22 @@
   
 &ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216082547-6cd964e8-bed2-40ad-9c61-2514902f2011.png">
 - - - -
-#### 2. Then, all I've done is to run the queries of creating the tables as MySQL queries ####
+#### 2. Copying the existing file to my database ####
 
-&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216082880-e88d0172-d631-4278-8074-8297cd3b3521.png" width=70% height=70%>
+&ensp;&thinsp;&ensp;&thinsp;__- All I've to do is to run this command in my terminal__ ```mysql -u username -p database_name < file_name.sql ```
+
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;__username__: is the username which I used to use to log-in the server with
+
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;__database_name__: is the name of the created database
+
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;__file_name.sql__: is the name of the .sql file that contains the queries which responsible of creating the tables
+
+
+&ensp;&thinsp;&ensp;&thinsp;__- Another way is to run all the queries in the file as MySQL queries__
+
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216082880-e88d0172-d631-4278-8074-8297cd3b3521.png" width=70% height=70%>
 - - - -
 #### 3. After running all queries, I've to ensure that the tables are added successfully ####
-
 
 &ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216083273-b8a9ae56-12bb-4828-95e7-de37cd2f0f44.png">
 - - - -
