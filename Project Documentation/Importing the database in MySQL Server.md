@@ -12,8 +12,7 @@
 
 4. Now is the time for importing the external **csv** files that contain the data I want to store in my database. To do this I've run a query that loads the data in each csv file to the created table in the database.
   The query is:
-  >LOAD DATA LOCAL INFILE 'file_name.csv' INTO TABLE table_name FIELDS TERMINATED BY ',' IGNORE 1 ROWS;
+  ```LOAD DATA LOCAL INFILE 'file_name.csv' INTO TABLE table_name FIELDS TERMINATED BY ',' IGNORE 1 ROWS;```
   The **IGNORE 1 ROWS** is because that the csv file has a header row.
-  
   All queries for all tables are written as following:
   ![Screenshot_20230201_052336](https://user-images.githubusercontent.com/70551007/216084721-ef9d71e5-7857-4ffc-9486-70117ea7897a.png)
