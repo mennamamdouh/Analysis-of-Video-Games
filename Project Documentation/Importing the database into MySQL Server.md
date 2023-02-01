@@ -1,4 +1,4 @@
-## Steps to import an existing data of a database in MySQL server using VS Code ##
+## Steps to import an existing data of a database into MySQL server using VS Code ##
 
 #### 1. Open the database file (.sql) in VS Code and create the database ####
   &ensp;&thinsp;&ensp;&thinsp;In my case, the .sql file contains the queries for creating only the tables of the database. So, I've created the database first.
