@@ -24,5 +24,5 @@
 
 &ensp;&thinsp;&ensp;&thinsp;Then, all queries for loading the data in all tables are written as following:
 
-&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216084721-ef9d71e5-7857-4ffc-9486-70117ea7897a.png" width=90% height=90%>
+&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216084721-ef9d71e5-7857-4ffc-9486-70117ea7897a.png" width=95% height=90%>
 - - - -
