@@ -29,6 +29,18 @@
 
 &ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216153907-fcf47cb2-c13c-435b-8c11-e4bf43b2df54.png" width=50%>
 
+&ensp;&thinsp;&ensp;&thinsp;To know their count:
+
+```
+  SELECT COUNT(G.game) AS missing_reviews FROM game_sales AS G
+  LEFT JOIN reviews AS R
+      ON G.game = R.game
+  WHERE R.user_score IS NULL AND R.critic_score IS NULL
+```
+
+&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216161154-2ce5186c-93ec-4497-b915-af869a2d463d.png">
+
+
 - - - -
 
 #### 3. Years that video game critics loved ####
