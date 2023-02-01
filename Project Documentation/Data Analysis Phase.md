@@ -130,6 +130,7 @@ ORDER BY avg_critic_score DESC;
 ```
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;The results:
+
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216186172-914d48a1-be87-4310-9528-24b3e2094090.png" width=30%>
 
 ---
@@ -150,6 +151,7 @@ LIMIT 10;
 ```
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;The results:
+
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216187178-b785aa90-5a99-4b28-963a-413eeecfded5.png" width=40%>
 
 ---
@@ -174,6 +176,7 @@ SELECT year AS favourite_years FROM top_user_years_more_than_four_games;
 ```
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;Both result the same records.
+
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216189193-c938ff48-05ab-405c-8b28-31271ff00aac.png" width=30%>
 
 ---
@@ -194,4 +197,5 @@ ORDER BY total_games_sold DESC;
 ```
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;The results will be:
+
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;<img src="https://user-images.githubusercontent.com/70551007/216190451-9ce03deb-53c1-4ee9-94b6-a988ebf5acf7.png" width=30%>
