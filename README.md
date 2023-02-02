@@ -2,7 +2,9 @@
 
 ### About the project ###
 
-This project is a guided project from DataCamp (i.e. the data is already prepared and ready to use). The project is about analyzing and getting insights about video games sales, and users and critics reviews. The project's goals is to answer some questions and get insights about the world of video games from it.
+This project is a guided project from DataCamp (i.e. the data is already prepared and ready to use). The project is about analyzing and getting insights about video games sales, and users and critics reviews. The project's goals is to answer some questions and get insights about the world of video games with the help of these answers.
+
+<img src="https://img.freepik.com/free-vector/set-objects-related-video-games-neon-linear-style_24908-58670.jpg?w=1380&t=st=1675376871~exp=1675377471~hmac=364fe80b35699101a47dcf53d29391555c393215382a26e4bf81e04615c86940">
 
 - - - -
 
@@ -22,23 +24,29 @@ Then follow the steps in the Project Documentation folder to import the data int
 
 ### The project is divided into 4 phases ###
 
-1. Importing the data into a database
+1. Importing the data into a database ([Documentation](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Documentation/Importing%20the%20database%20into%20MySQL%20Server.md))
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This phase includes the creation of a database, the creation of its tables, and importing data into the database.
+    - Creating a database
+  
+    - Creating tables
+  
+    - Importing an existing data into the database
 
-2. Data exploration phase
+2. Data exploration phase ([Documentation](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Documentation/Data%20Exploration%20Phase.md))
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This phase is just about exploring the data itself, showing the columns of each table, understanding what each column represents, and showing some of the records of each table.
+    - Showing tha columns of each table
+  
+    - Understanding what each column represents
+  
+    - Showing top records of each table
+  
+3. Data analysis phase ([Documentation](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Documentation/Data%20Analysis%20Phase.md)) -> The phase at which the questions are answered. This is done using:
+ 
+    - SQL simple queries such as SELECT ... FROM ... WHERE, JOINs, Grouping, and Ordering
 
-3. Data analysis phase
+    - Complex queries such as CTEs and Sub-queries
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This phase is the phase at which the questions are answered. In this phase, I've used:
-
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 1. SQL simple queries such as SELECT ... FROM ... WHERE, JOINs, Grouping, and Ordering
-
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 2. Complex queries such as CTEs and Sub-queries
-
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 3. Some aggregate functions such as SUM, AVG, and COUNT
+    - Some aggregate functions such as SUM, AVG, and COUNT
 
 4. Reporting and documentation
 
