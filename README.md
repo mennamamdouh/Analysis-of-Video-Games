@@ -34,7 +34,7 @@ Then follow the steps in the Project Documentation folder to import the data int
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;This phase is the phase at which the questions are answered. In this phase, I've used:
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 1. SQL simple queries such as SELECT ... FROM ... WHERE, JOINs, Grouping and Ordering
+&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 1. SQL simple queries such as SELECT ... FROM ... WHERE, JOINs, Grouping, and Ordering
 
 &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp; 2. Complex queries such as CTEs and Sub-queries
 
