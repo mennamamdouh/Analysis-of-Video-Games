@@ -45,5 +45,3 @@ LOAD DATA LOCAL INFILE 'game_reviews.csv' INTO TABLE reviews FIELDS TERMINATED B
 LOAD DATA LOCAL INFILE 'top_critic_scores.csv' INTO TABLE top_critic_years FIELDS TERMINATED BY ',' IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE 'top_critic_scores_more_than_four_games.csv' INTO TABLE top_critic_years_more_than_four_games FIELDS TERMINATED BY ',' IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE 'top_user_scores_more_than_four_games.csv' INTO TABLE top_user_years_more_than_four_games FIELDS TERMINATED BY ',' IGNORE 1 ROWS;
-
-SELECT * FROM game_sales;
