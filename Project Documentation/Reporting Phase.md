@@ -18,6 +18,8 @@ After I've specified these information, I want to extract them from the database
 
 ### 2. Extracting the needed information from the database ###
 
+> Here's the complete source code of this step: [data_extraction.sql](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Code%20Files/data_extraction.sql)
+
 In order to ease the visualization sub-phase, I prefered to extract each information I want into a separate csv file to be ready for visualization.
 
   1. Showing the needed information to ensure its form
@@ -31,8 +33,10 @@ In order to ease the visualization sub-phase, I prefered to extract each informa
         
         I've got these results, and been sure that this is the data I need for visualization
         
+        <p align="center">
         <img src="https://user-images.githubusercontent.com/70551007/216799765-ab886df5-c60f-4c7f-938b-17d6b617438a.png">
-
+        </p>
+        
         <br>
                 
   2. Extracting this information to a csv file
@@ -54,10 +58,10 @@ In order to ease the visualization sub-phase, I prefered to extract each informa
         ```
         
         Now, the csv file is ready in the selected path, and I've been sure that the data is extracted correctly and here's a sample of it.
-                
+        
+        <p align="center">
         <img src="https://user-images.githubusercontent.com/70551007/217109648-c59b3482-17e7-4c39-a248-a6fe74d98578.png">
-
-
+        </p>
         
 - - - -
 
