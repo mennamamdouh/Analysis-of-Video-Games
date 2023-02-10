@@ -50,7 +50,7 @@ Then follow the steps in the Project Documentation folder to import the data int
 
 4. Reporting and visualization phase ([Documentaion](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Documentation/Reporting%20Phase.md))
 
-    The final report is created by Power BI Desktop ([Click to have a copy to try filters](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Video%20Games%20Analysis%20Report.pbix?raw=true)):
+    The final report is created using Power BI Desktop software ([Click to have a copy to try filters](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Video%20Games%20Analysis%20Report.pbix?raw=true)):
     
     <p align="center">
     <img src="https://user-images.githubusercontent.com/70551007/218218166-ec2c5d8c-7159-491f-b0b3-5ae03d03f755.png">
