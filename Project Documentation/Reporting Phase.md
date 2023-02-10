@@ -79,4 +79,4 @@ I've found that:
   3. According to the number of games created and total profits, the era of evolution is in __2000__ and __2015__
   4. __Nintendo__ is usually on top
   5. For the last 20 years, __Atari__ and __GEN__ platforms are disappeared
-  6. the top 10 developers (out of 133) have created more than 37% of the total created games
+  6. The top 10 developers (out of 133) have created more than 37% of the total created games
