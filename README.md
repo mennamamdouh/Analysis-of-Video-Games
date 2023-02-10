@@ -64,5 +64,3 @@ Then follow the steps in the Project Documentation folder to import the data int
     + Nintendo is usually on top
     + For the last 20 years, Atari and GEN platforms are disappeared
     + The top 10 developers (out of 133) have created more than 37% of the total created games
-
-    Here's a copy of the report 
