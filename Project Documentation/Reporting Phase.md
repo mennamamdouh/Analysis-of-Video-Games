@@ -1,4 +1,4 @@
-## This phase is divided into 3 sub-phases ##
+## This phase is divided into 4 sub-phases ##
 
 ### 1. Planning for the insights I want to extract ###
 
@@ -7,7 +7,8 @@ This phase needs strong understanding of each column in each table in the databa
 For this project, I was interested in some points:
 
   - The total number of games, developers, publishers, platforms, and total profit achieved from these games.
-  - The number of games created by each developer, and produced by each platform
+  - Top ten developers according to number of games they created
+  - Which platform creates more games and their progress over the years
   - The number of games created each year
   - Profit curve over the years
   - Users VS. critics scores over the years
@@ -16,53 +17,63 @@ After I've specified these information, I want to extract them from the database
 
 - - - -
 
-### 2. Extracting the needed information from the database ###
+### 2. Exploring the data I need for visualization ###
 
-> Here's the complete source code of this step: [data_extraction.sql](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Project%20Code%20Files/data_extraction.sql)
+It was obvious to me that all the data I need for visualization exists in the files and is already stored in the database, expect one information which is the plaform.
 
-In order to ease the visualization sub-phase, I prefered to extract each information I want into a separate csv file to be ready for visualization.
+The information about platforms which is stored in the database can be categorized under 6 platforms:
 
-  1. Showing the needed information to ensure its form
-            
-      For example: number of games released each year
-      
-        ```
-        SELECT year, COUNT(DISTINCT game) AS NumberOfGames FROM game_sales
-        GROUP BY year ORDER BY year;
-        ```
-        
-        I've got these results, and been sure that this is the data I need for visualization
-        
-        <p align="center">
-        <img src="https://user-images.githubusercontent.com/70551007/216799765-ab886df5-c60f-4c7f-938b-17d6b617438a.png">
-        </p>
-        
-        <br>
-                
-  2. Extracting this information to a csv file
+  1. Nintendo
+  2. Playstation
+  3. XBOX
+  4. GEN
+  5. Atari
+  6. PC
 
-        To do this task I've run this query:
-        
-        ```
-        SELECT 'year', 'num_of_games'
-        UNION
-        (
-            SELECT year, COUNT(DISTINCT game)
-            INTO OUTFILE 'path\gamesVSyears.csv'
-            FIELDS TERMINATED BY ','
-            ENCLOSED BY '"'
-            LINES TERMINATED BY '\n'
-            FROM game_sales
-                GROUP BY year ORDER BY year
-        );
-        ```
-        
-        Now, the csv file is ready in the selected path, and I've been sure that the data is extracted correctly and here's a sample of it.
-        
-        <p align="center">
-        <img src="https://user-images.githubusercontent.com/70551007/217109648-c59b3482-17e7-4c39-a248-a6fe74d98578.png">
-        </p>
+So, I've mapped each sub-platform to its platform and stored it in a column in the database by the following code:
+
+```
+ALTER TABLE game_sales
+ADD COLUMN ActualPlatform VARCHAR(15);
+
+UPDATE game_sales
+SET ActualPlatform = 
+    CASE
+        WHEN platform like "X%" THEN "XBOX"
+        WHEN platform like "PS%" THEN "Playstation"
+        WHEN platform = "2600" THEN "Atari"
+        WHEN platform like "GEN" THEN "GEN"
+        WHEN platform like "PC" THEN "PC"
+        ELSE "Nintendo"
+    END;
+```
+
+Now, I've all the data I need for visualization
         
 - - - -
 
 ### 3. Visualizing the information I've extracted ###
+
+For me, this step can be divided into other 3 steps:
+
+  1. Creating visuals and customize them
+  2. Planning for the report's final look according to the visuals created (sketch)
+  3. Finishing the report
+
+After those 3 steps, I've got many insights about every information I've drawn.
+
+- - - -
+
+### 4. Insights ###
+
+This is the final result of the report
+
+<img src="https://user-images.githubusercontent.com/70551007/218214914-047d45c8-3142-42f8-b7df-96e742faf3de.png">
+
+I've found that:
+  
+  1. Most games are created by Nintendo and Playstation platforms
+  2. For most of the years, users' average score are less than critics' average score
+  3. According to the number of games created and total profits, the era of evolution is in 2000 and 2015
+  4. For the last 20 years, Atari and GEN platforms are disappeared
+  5. Top 10 developers (out of 133) have created more than 37% of the total created games
