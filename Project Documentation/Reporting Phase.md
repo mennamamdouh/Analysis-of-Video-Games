@@ -56,9 +56,16 @@ Now, I've all the data I need for visualization
 
 For me, this step can be divided into other 3 steps:
 
-  1. Creating visuals and customize them
-  2. Planning for the report's final look according to the visuals created (sketch)
-  3. Finishing the report
+1. Creating visuals and customize them
+    
+    This is done using Power BI
+    + First, I've imported the tables and changes some of their columns' types to be ready to deal with
+    + Second, I've created a __Measures__ table to contain all the calculations I'll make for visualization such as number of games and platforms
+    + Third, I've started to visualize
+  
+2. Planning for the report's final look according to the visuals created (sketch)
+  
+3. Finishing the report
 
 After those 3 steps, I've got many insights about every information I've drawn.
 
