@@ -66,14 +66,17 @@ After those 3 steps, I've got many insights about every information I've drawn.
 
 ### 4. Insights ###
 
-This is the final result of the report
+The final report:
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/70551007/218214914-047d45c8-3142-42f8-b7df-96e742faf3de.png">
-
+<p/>
+  
 I've found that:
   
-  1. Most games are created by Nintendo and Playstation platforms
+  1. Most games are created by __Nintendo__ and __Playstation__ platforms
   2. For most of the years, users' average score are less than critics' average score
-  3. According to the number of games created and total profits, the era of evolution is in 2000 and 2015
-  4. For the last 20 years, Atari and GEN platforms are disappeared
-  5. Top 10 developers (out of 133) have created more than 37% of the total created games
+  3. According to the number of games created and total profits, the era of evolution is in __2000__ and __2015__
+  4. __Nintendo__ is usually on top
+  5. For the last 20 years, __Atari__ and __GEN__ platforms are disappeared
+  6. the top 10 developers (out of 133) have created more than 37% of the total created games
