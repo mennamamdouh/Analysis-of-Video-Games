@@ -83,7 +83,7 @@ I've found that:
       
   1. Most games are created by __Nintendo__ and __Playstation__ platforms
   2. For most of the years, users' average score are less than critics' average score
-  3. According to the number of games created the era of evolution is in __2000__ and __2015__
+  3. According to the number of games created, the era of evolution is between __2000__ and __2015__
   4. __Nintendo__ is usually on top in spite of the more number of developers who work for __Playstation__ (approximately the double)
   5. For the last 20 years, __Atari__ and __GEN__ platforms are disappeared
   6. The top 10 developers (out of 133) have created more than 37% of the total created games
