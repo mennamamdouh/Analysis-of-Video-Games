@@ -53,14 +53,14 @@ Then follow the steps in the Project Documentation folder to import the data int
     The final report is created using Power BI Desktop software ([Click to have a copy to try filters](https://github.com/mennamamdouh/Analysis-of-Video-Games/blob/main/Video%20Games%20Analysis%20Report.pbix?raw=true)):
     
     <p align="center">
-    <img src="https://user-images.githubusercontent.com/70551007/218218166-ec2c5d8c-7159-491f-b0b3-5ae03d03f755.png">
-    <p/>
+    <img src="https://user-images.githubusercontent.com/70551007/218227985-ac8949b2-a035-4fa9-acd0-7f0711624f5f.png">
+    <p/>   
     
     These visualizations have shown me some insights:
             
-    + Most games are created by Nintendo and Playstation platforms
+    + Most games are created by __Nintendo__ and __Playstation__ platforms
     + For most of the years, users' average score are less than critics' average score
-    + According to the number of games created and total profits, the era of evolution is in 2000 and 2015
-    + Nintendo is usually on top
-    + For the last 20 years, Atari and GEN platforms are disappeared
+    + According to the number of games created the era of evolution is in __2000__ and __2015__
+    + __Nintendo__ is usually on top in spite of the more number of developers who work for __Playstation__ (approximately the double)
+    + For the last 20 years, __Atari__ and __GEN__ platforms are disappeared
     + The top 10 developers (out of 133) have created more than 37% of the total created games
