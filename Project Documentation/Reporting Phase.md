@@ -10,7 +10,7 @@ For this project, I was interested in some points:
   - Top ten developers according to number of games they created
   - Which platform creates more games and their progress over the years
   - The number of games created each year
-  - Profit curve over the years
+  - Total number of developers work for each platform and how does it affect their productivity ?
   - Users VS. critics scores over the years
 
 After I've specified these information, I want to extract them from the database.
@@ -76,14 +76,14 @@ After those 3 steps, I've got many insights about every information I've drawn.
 The final report:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/70551007/218214914-047d45c8-3142-42f8-b7df-96e742faf3de.png">
-<p/>
+<img src="https://user-images.githubusercontent.com/70551007/218228529-9b1ae0ca-b19d-46e5-99a8-cb30099dd575.jpg">
+<p/>  
   
 I've found that:
-  
+      
   1. Most games are created by __Nintendo__ and __Playstation__ platforms
   2. For most of the years, users' average score are less than critics' average score
-  3. According to the number of games created and total profits, the era of evolution is in __2000__ and __2015__
-  4. __Nintendo__ is usually on top
+  3. According to the number of games created the era of evolution is in __2000__ and __2015__
+  4. __Nintendo__ is usually on top in spite of the more number of developers who work for __Playstation__ (approximately the double)
   5. For the last 20 years, __Atari__ and __GEN__ platforms are disappeared
   6. The top 10 developers (out of 133) have created more than 37% of the total created games
